@@ -15,6 +15,6 @@ export default class Navbar extends React.Component {
 }
 
 const styles = StyleSheet.create({ header: {
-        textAlign: 'center', fontSize: 25, padding: 10
+        fontSize: 25, padding: 10, backgroundColor: '#8090a7', justifyContent: 'flex-start', color: 'white'
     }
 })
